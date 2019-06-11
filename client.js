@@ -14,6 +14,7 @@ function init(bundle, parent, options = {}) {
 
   r360.controls.clearRaycasters()
   r360.controls.addRaycaster(SimpleRaycaster)
+  r360.compositor.setBackground(r360.getAssetURL('moon.png'))
 }
 
 window.React360 = { init };
