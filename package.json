@@ -7,7 +7,8 @@
     "bundle": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "react": "16.3.2",
@@ -28,6 +29,5 @@
   },
   "jest": {
     "preset": "react-360"
-  },
-  "deploy": "node scripts/deploy.js"
+  }
 }
